@@ -1,0 +1,84 @@
+
+.main-meniu {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap: 10px;
+
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-bottom: 200px;
+}
+.between {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.box1 {
+    width: 775px;
+    height: 1117px;
+    
+    
+    /* background-image: url(./../images/Rectangle\ 6.png); */
+}
+.a1 {
+    font-size: 20px;
+    border-radius: 10px;
+}
+.dimention {
+    display: flex;
+    flex-grow: 1;
+    width: 537px;
+    height: 68px;
+}
+.d2 {
+    width: 226px;
+    height: 68px;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(2, 19, 19, 0.342);
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 10px;
+    color: blue;
+    font-size: 30px;
+}
+.box-total {
+    width: 1728px;
+    height: 1117px;
+    background-color: rgba(255, 127, 127, 0.377);
+
+}
+
+.l {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.w {
+    /* width: 632px; */
+    /* height: 130px; */
+    margin-bottom: 50px;
+}
